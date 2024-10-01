@@ -1,0 +1,15 @@
+:root {
+    /* fonts */
+    
+    --font-family-secondary: 'Rubik', sans-serif;
+    --font-family-primary: 'Inter', sans-serif;
+
+
+    /* colors */
+
+    --color-primary: #B1BACB;
+    --color-active: #001747;
+    --color-hover: #2D70FD;
+    --color-complete: #00D8A7;
+    --color-white: #FFFFFF;
+}

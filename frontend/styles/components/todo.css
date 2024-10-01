@@ -1,0 +1,47 @@
+.todo__heading {
+    font-family: var(--font-family-secondary);
+    color: var(--color-active);
+    line-height: 57px;
+    font-size: 48px;
+}
+
+.todo__create {
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 7px 7px 7px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.todo__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.todo__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.todo__text {
+    color: var(--color-active);
+    font-weight: 500;
+    transition: all 0.6s ease;
+}
+
+.todo__text_active {
+    color: var(--color-primary);
+    text-decoration: line-through;
+    transition: all 0.6s ease;
+}
+
+.todo__text:hover {
+    color: var(--color-hover);
+}
