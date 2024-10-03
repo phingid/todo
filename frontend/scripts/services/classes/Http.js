@@ -1,11 +1,11 @@
 class Http {
     constructor() {
-        this.API = 'http://localhost:3000/';
+        this.API = 'http://localhost:3000';
     }
 
     async get(url) {
-        const responce = await fetch(`${this.API}${url}`).then(responce => responce.json());
-        return responce;
+        const response = await fetch(`${this.API}${url}`).then(response => response.json());
+        return response;
     }
     
     async post(url, params) {

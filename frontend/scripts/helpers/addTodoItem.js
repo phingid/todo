@@ -11,7 +11,7 @@ const addTodoItem = () => {
                 title: fieldTodo.value,
             }
 
-            await todoRepostory.createTodoItem(data.title);
+            await todoRepostory.createTodoItem(data);
             fieldTodo.value = '';
             rerendererTodoList();
         }

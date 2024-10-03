@@ -22,6 +22,8 @@ const TodoItem = (text) => {
     todoItem.append(buttonTodo);
     todoItem.append(todoText);
     todoText.append(todoTextContent);
+
+    return todoItemsNode;
 }
 
 export default TodoItem;
